@@ -16,15 +16,17 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-# IDE specific files
+# IDE specific files (IntelliJ IDEA)
 .idea/
 *.iml
 *.iws
 *.ipr
-.settings/
-.classpath
-.project
 .vscode/
+
+# Eclipse files are now included for easy import
+# .settings/
+# .classpath
+# .project
 
 # OS specific files
 .DS_Store

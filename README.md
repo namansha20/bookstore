@@ -15,6 +15,7 @@ A complete Spring MVC web application for managing an online bookstore with MySQ
 - **Backend**: Spring MVC 5.3.20, Hibernate 5.6.9
 - **Database**: MySQL 8.0
 - **Build Tool**: Maven
+- **IDE**: Eclipse IDE for Enterprise Java (with pre-configured project files)
 - **Server**: Compatible with Tomcat 9.x
 - **Java**: JDK 1.8+
 
@@ -64,7 +65,16 @@ jdbc.password=your_password
 
 ## Build and Deploy
 
-### Using Maven:
+### Using Eclipse IDE (Recommended for Development):
+
+**See [ECLIPSE-SETUP.md](ECLIPSE-SETUP.md) for detailed Eclipse IDE setup instructions.**
+
+Quick steps:
+1. Import project: **File → Import → Existing Maven Projects**
+2. Configure Tomcat server in Eclipse
+3. Right-click project → **Run As → Run on Server**
+
+### Using Maven Command Line:
 
 1. Clean and build the project:
 ```bash
@@ -114,6 +124,19 @@ http://localhost:8080/bookhub/
 - Hibernate is configured to show SQL queries in console (`hibernate.show_sql=true`)
 - The database schema is auto-updated based on entity definitions
 - Form validation is handled through HTML5 validation and Spring form tags
+
+## Getting Started with Eclipse IDE
+
+This project includes Eclipse IDE configuration files (`.project`, `.classpath`, `.settings/`) for easy import and development.
+
+**For detailed Eclipse setup instructions, see [ECLIPSE-SETUP.md](ECLIPSE-SETUP.md)**
+
+Quick import steps:
+1. Clone this repository
+2. Open Eclipse IDE for Enterprise Java
+3. Go to **File → Import → Existing Maven Projects**
+4. Select the project directory
+5. Configure Tomcat server and run
 
 ## License
 
