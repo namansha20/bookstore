@@ -1,0 +1,5 @@
+# Production Database Configuration
+jdbc.driverClassName=com.mysql.cj.jdbc.Driver
+jdbc.url=jdbc:mysql://production-server:3306/bookstore?useSSL=true&serverTimezone=UTC
+jdbc.username=prod_user
+jdbc.password=CHANGE_ME_IN_PRODUCTION
