@@ -67,7 +67,8 @@ jdbc.password=your_password
 
 ### Using Visual Studio Code:
 
-**See [VSCODE-SETUP.md](VSCODE-SETUP.md) for detailed VS Code setup instructions.**
+**Quick Start**: [VSCODE-QUICKSTART.md](VSCODE-QUICKSTART.md) - Get running in 5 minutes  
+**Detailed Guide**: [VSCODE-SETUP.md](VSCODE-SETUP.md) - Complete setup and debugging instructions
 
 Quick steps:
 1. Open folder in VS Code
