@@ -15,7 +15,7 @@ A complete Spring MVC web application for managing an online bookstore with MySQ
 - **Backend**: Spring MVC 5.3.20, Hibernate 5.6.9
 - **Database**: MySQL 8.0
 - **Build Tool**: Maven
-- **IDE**: Eclipse IDE for Enterprise Java (with pre-configured project files)
+- **IDE**: Visual Studio Code (with .vscode configuration) or Eclipse IDE for Enterprise Java
 - **Server**: Compatible with Tomcat 9.x
 - **Java**: JDK 1.8+
 
@@ -65,7 +65,19 @@ jdbc.password=your_password
 
 ## Build and Deploy
 
-### Using Eclipse IDE (Recommended for Development):
+### Using Visual Studio Code:
+
+**Quick Start**: [VSCODE-QUICKSTART.md](VSCODE-QUICKSTART.md) - Get running in 5 minutes  
+**Detailed Guide**: [VSCODE-SETUP.md](VSCODE-SETUP.md) - Complete setup and debugging instructions
+
+Quick steps:
+1. Open folder in VS Code
+2. Install recommended extensions (Java Extension Pack, Tomcat for Java)
+3. Configure database in `src/main/resources/database.properties`
+4. Build with `Ctrl+Shift+B` or run Maven task
+5. Deploy to Tomcat and access at http://localhost:8080/bookhub/
+
+### Using Eclipse IDE:
 
 **See [ECLIPSE-SETUP.md](ECLIPSE-SETUP.md) for detailed Eclipse IDE setup instructions.**
 
@@ -125,7 +137,23 @@ http://localhost:8080/bookhub/
 - The database schema is auto-updated based on entity definitions
 - Form validation is handled through HTML5 validation and Spring form tags
 
-## Getting Started with Eclipse IDE
+## Getting Started with Your IDE
+
+This project supports both Visual Studio Code and Eclipse IDE with pre-configured setup files.
+
+### Visual Studio Code (Recommended)
+
+The project includes `.vscode/` directory with configurations for Java, Maven, and Tomcat.
+
+**For detailed VS Code setup instructions, see [VSCODE-SETUP.md](VSCODE-SETUP.md)**
+
+Quick import steps:
+1. Open the project folder in VS Code
+2. Install recommended extensions when prompted
+3. Configure database credentials in `src/main/resources/database.properties`
+4. Build with `Ctrl+Shift+B` and deploy to Tomcat
+
+### Eclipse IDE
 
 This project includes Eclipse IDE configuration files (`.project`, `.classpath`, `.settings/`) for easy import and development.
 

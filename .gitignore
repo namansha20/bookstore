@@ -21,7 +21,9 @@ buildNumber.properties
 *.iml
 *.iws
 *.ipr
-.vscode/
+
+# VS Code settings are now included for easy setup
+# .vscode/
 
 # Eclipse files are now included for easy import
 # .settings/
