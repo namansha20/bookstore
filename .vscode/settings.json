@@ -1,0 +1,48 @@
+{
+    // Java Settings
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    
+    // Maven Settings
+    "maven.terminal.useJavaHome": true,
+    "maven.executable.path": "mvn",
+    
+    // Tomcat Server Settings
+    "tomcat.port": 8080,
+    "tomcat.workspace": "${workspaceFolder}/target",
+    
+    // Editor Settings
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    
+    // Files to exclude from the explorer
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    
+    // Java formatting
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    
+    // JSP/HTML Settings
+    "files.associations": {
+        "*.jsp": "jsp"
+    },
+    
+    // XML formatting
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    
+    // Java imports
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "org",
+        "com"
+    ]
+}
